@@ -1,0 +1,4 @@
+.env
+yarn-error.log
+excluded_groups.txt
+node_modules

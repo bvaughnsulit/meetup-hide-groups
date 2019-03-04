@@ -1,0 +1,33 @@
+body {
+  font: 14px Helvetica, sans-serif;
+  margin: 20px;
+}
+
+.event {
+  display:block;
+  margin: 20px 0;
+}
+
+.hidden {
+    color: #ababab;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+.header {
+}
+
+button {
+    border: 1px solid;
+    padding: 10px;
+    font: 14px Helvetica, sans-serif;
+}
+
+.group-city {
+  margin: 0 10px;
+  display: inline
+}
+
+.display-linebreak {
+  white-space: pre-line;
+}
