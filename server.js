@@ -11,7 +11,7 @@ refreshFilters()
 
 function refreshFilters() {
     fs.readFile(filterPath, function(err, data){
-        excluded_groups = data.toString()
+        excluded_groups = data ? data.toString() : ''
     });
 }
 
